@@ -1,0 +1,32 @@
+﻿{
+	"version" : "1.0",
+	"author" : "JesusVanilla",
+	
+	"name" :  {
+		"en" : "Hard Mode",
+		"de": "Hard-Modus"
+	},
+
+	"description" : {
+		"en" : "Makes the fight more difficult",
+		"de": "Erschwert den Kampf"
+	},
+
+	"settings" : [
+		{
+		  "id": "DIFFICULTY",
+		  "type": "int",
+		  "default": 0,
+		  "min": 0,
+		  "max": 10,
+			"name" :  {
+				"en" : "Fight difficulty",
+				"de": "Kampfschwierigkeit"
+			},
+			"description" : {
+				"en" : "Set the difficulty from default 0 to hardest 10",
+				"de": "Stellen Sie den Schwierigkeitsgrad von Standard 0 bis schwersten 10 ein"
+			}
+		}
+	]
+}
